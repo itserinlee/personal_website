@@ -1,6 +1,6 @@
 # Erin Lee
 
-### Deployed Site: [itserinlee.netlify.app/index.html](itserinlee.netlify.app/index.html)
+## Deployed Site: [itserinlee.netlify.app/index.html](itserinlee.netlify.app/index.html)
 
 ### References:
     - cursive font used
