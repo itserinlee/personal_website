@@ -1,6 +1,6 @@
 # Erin Lee
 
-## Deployed Site: [itserinlee.netlify.app/index.html](itserinlee.netlify.app/index.html)
+## Deployed Site: [https://itserinlee.netlify.app/](https://itserinlee.netlify.app/)
 
 ## References
 
