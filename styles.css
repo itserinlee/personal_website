@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "EB Garamond", serif;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+header {
+  /* background-color: rgb(236, 201, 86); */
+  border-bottom: 1px solid grey;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Cedarville Cursive", cursive;
+}
+
+/* Reference in README:
+removes text underline */
+#erin {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  /* background-color: rgb(206, 148, 214);
+  border: 4px solid rgb(119, 24, 99); */
+  background-color: white;
+}
+
+footer {
+  /* border-top: 1px solid grey;
+  background-color: white; */
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+/* unitless, ratio of available space */
+
+main {
+  flex: 1;
+}
+
+.index_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Setting up the Navbar Flexboxes */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+#mail {
+  align-self: start;
+  padding-right: 5px;
+}
+
+
+.nytimes_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+#nytimes_header {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* img { */
+  /* no idea what the display block does...
+  https://stackoverflow.com/questions/5214893/right-align-an-image-using-css-html */
+
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: 50%; */
+/* } */
+
+
+.w_spacer {
+  width: 100px;
+}
+
+.h_spacer {
+  height: 100px;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  margin:0;
+  padding-left: 40px;
+  font-family: "EB Garamond", serif;
+}
+
+p {
+  /* max-width: 40ch; */
+  /* max-width: 405px; */
+  font-family: "EB Garamond", serif;
+}
+
+
+#bio {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: center; */
+  /* max-width: 40ch; */
+  max-width: 405px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* .location_pin {
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
+} */
+
+.main_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_column_effect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.column_effect {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.h2_padding {
+  padding-left: 5%;
+  padding-right: 5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_link {
+  color: black;
+}
+
+.h3_padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.horizontal_spacer {
+  width: 20px;
+}
+
+.subheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+}
+
+#subpages {
+  font-family: "EB Garamond", serif;
+  /* color: #A9A9A9; */
+  color: #B2D3C2;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#projects {
+  font-size: medium;
+}
+
+.project_spacer {
+  height: 5%;
+}
+
+.project_images {
+  height: 17vw;
+}
+
+.markup {
+  margin: 0;
+  font-size: 25px;
+}
+
+.code {
+  background-color: #eeeeee;
+  font-size: 12px;
+}
+
+button {
+  max-width: 15ch;
+  border-color: #B2D3C2;
+  /* border-radius: 10%; */
+  border-width: 1.5px;
+  background-color: white;
+  /* font-family: "EB Garamond", serif; */
+}
+
+#projects_button {
+  background-color: white;
+  color: #B2D3C2;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-decoration: none;
+}
