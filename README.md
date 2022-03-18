@@ -4,7 +4,7 @@
 
 ## References
 
-cursive font used:
+cursive font:
 ##### https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive#standard-styles
 
 social media icons:
