@@ -1,3 +1,3 @@
-# [Erin Lee](https://github.com/itserinlee/)
+# Erin Lee
 
 ### Deployed Site: [itserinlee.netlify.app/index.html](itserinlee.netlify.app/index.html)
