@@ -2,7 +2,7 @@
 
 ## Deployed Site: [itserinlee.netlify.app/index.html](itserinlee.netlify.app/index.html)
 
-### References
+## References
 
 cursive font used:
 ##### https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive#standard-styles
