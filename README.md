@@ -8,7 +8,7 @@ cursive font used:
 ##### https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive#standard-styles
 
 social media icons:
-https://icons8.com/icon/set/social-media/ios-glyphs
+##### https://icons8.com/icon/set/social-media/ios-glyphs
 
 
 To remove underline from link, used `text-decoration: none;` in CSS file:
