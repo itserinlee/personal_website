@@ -24,9 +24,14 @@ h1 {
   font-family: "Cedarville Cursive", cursive;
 }
 
+
 #erin {
   color: black;
   text-decoration: none;
+}
+
+#erin:hover {
+    color: #16463F;
 }
 
 main {
@@ -41,6 +46,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 
 main {
   flex: 1;
@@ -58,6 +64,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+
 
 header {
   display: flex;
@@ -92,6 +99,7 @@ nav {
   align-items: center;
 }
 
+
 .w_spacer {
   width: 100px;
 }
@@ -99,6 +107,7 @@ nav {
 .h_spacer {
   height: 100px;
 }
+
 
 .about {
   display: flex;
@@ -124,6 +133,12 @@ p {
   max-width: 405px;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.location_pin {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .main_row {
@@ -195,6 +210,10 @@ h1 {
   font-size: 18px;
 }
 
+#subpages:hover {
+    color: #16463F;
+}
+
 #projects {
   font-size: medium;
 }
@@ -230,4 +249,12 @@ button {
   font-family: "EB Garamond", serif;
   font-size: 20px;
   text-decoration: none;
+}
+
+#projects_button:hover {
+  color: #16463F;
+}
+
+button:hover {
+  border-color: #16463F;
 }
